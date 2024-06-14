@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://kaichinyang.github.io/App_Practice_FoodStore/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
