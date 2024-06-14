@@ -25,7 +25,7 @@ export default function GlobalState({ children }) {
         setRecipeList(data?.data?.recipes);
         setSearchParam("");
         setLoading(false);
-        navigate("/"); //跳轉到Home page
+        navigate("/App_Practice_FoodStore/"); //跳轉到Home page
       }
     } catch (error) {
       console.log(`Error: ${error}`);

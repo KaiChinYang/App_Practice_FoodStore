@@ -8,13 +8,13 @@ export default function Navbar() {
     <nav className="flex justify-between items-center py-8 container mx-auto flex-col lg:flex-row gap-5 lg:gap-0">
       <h2 className="text-2xl font-semibold">
         <NavLink
-          to={"/"}
+          to={"/App_Practice_FoodStore/"}
           className="text-black hover:text-gray-700 duration-300"
         >
           Food Recipe
         </NavLink>
       </h2>
-      <form onSubmit={handleSubmit}> 
+      <form onSubmit={handleSubmit}>
         <input
           value={searchParam}
           onChange={(e) => setSearchParam(e.target.value)}
@@ -27,7 +27,7 @@ export default function Navbar() {
       <ul className="flex gap-5">
         <li>
           <NavLink
-            to={"/"}
+            to={"/App_Practice_FoodStore/"}
             className="text-black hover:text-gray-700 duration-300"
           >
             Home
@@ -35,7 +35,7 @@ export default function Navbar() {
         </li>
         <li>
           <NavLink
-            to={"/favorites"}
+            to={"/App_Practice_FoodStore/favorites"}
             className="text-black hover:text-gray-700 duration-300"
           >
             favorites
