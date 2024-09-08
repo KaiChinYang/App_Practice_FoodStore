@@ -28,15 +28,15 @@ export default function Navbar() {
         <li>
           <NavLink
             to={"/App_Practice_FoodStore/"}
-            className="text-black hover:text-gray-700 duration-300"
+            className="text-black hover:text-[#50d71e] duration-300"
           >
             Home
           </NavLink>
         </li>
-        <li>
+        <li className="hover:text-sky-400">
           <NavLink
             to={"/App_Practice_FoodStore/favorites"}
-            className="text-black hover:text-gray-700 duration-300"
+            className="text-black hover:text-[#50d71e] duration-300"
           >
             favorites
           </NavLink>
