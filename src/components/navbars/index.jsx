@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav className="flex justify-between items-center py-8 container mx-auto flex-col lg:flex-row gap-5 lg:gap-0">
       <h2 className="text-2xl font-semibold">
         <NavLink
-          to={"/App_Practice_FoodStore/"}
+          to={"/"}
           className="text-black hover:text-gray-700 duration-300"
         >
           Food Recipe
@@ -27,7 +27,7 @@ export default function Navbar() {
       <ul className="flex gap-5">
         <li>
           <NavLink
-            to={"/App_Practice_FoodStore/"}
+            to={"/"}
             className="text-black hover:text-[#50d71e] duration-300"
           >
             Home
@@ -35,10 +35,10 @@ export default function Navbar() {
         </li>
         <li className="hover:text-sky-400">
           <NavLink
-            to={"/App_Practice_FoodStore/favorites"}
+            to={"/favorites"}
             className="text-black hover:text-[#50d71e] duration-300"
           >
-            favorites
+            Favorites
           </NavLink>
         </li>
       </ul>

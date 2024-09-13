@@ -14,13 +14,13 @@ function App() {
       <div className="min-h-screen p-6 bg-white text-gray-600 text-lg">
         <Navbar />
         <Routes>
-          <Route path="/App_Practice_FoodStore/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route
-            path="/App_Practice_FoodStore/favorites"
+            path="/favorites"
             element={<Favorites />}
           />
           <Route
-            path="/App_Practice_FoodStore/recipe-item/:id"
+            path="/recipe-item/:id"
             element={<Details />}
           />
         </Routes>

@@ -6,11 +6,11 @@ import { BrowserRouter } from "react-router-dom";
 import GlobalState from "./contexts/index.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <BrowserRouter >
     {/* <React.StrictMode> */}
-      <GlobalState>
-        <App />
-      </GlobalState>
+    <GlobalState>
+      <App />
+    </GlobalState>
     {/* </React.StrictMode> */}
   </BrowserRouter>
 );
